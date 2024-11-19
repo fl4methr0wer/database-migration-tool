@@ -1,6 +1,6 @@
 mvn clean package
 
-target/my-project-1.0-SNAPSHOT.jar
+java -jar target/db-migration-tool-1.0-SNAPSHOT.jar <arguments>
 
 
 
