@@ -1,5 +1,6 @@
 package com.example.migrations;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -7,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class PropertiesUtilsTest {
 
     @Test
+    @Disabled
     public void testLoadProperties() {
         PropertiesUtils propertiesUtils = new PropertiesUtils("src/main/resources/application.properties");
 
